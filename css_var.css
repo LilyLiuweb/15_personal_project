@@ -44,6 +44,26 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     letter-spacing: 2px;
 }
+h1{
+  font-size: var(--title-font-size);
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+h2{
+  font-size: var(--sub-title-font-size);
+  letter-spacing: 1.75px;
+  font-weight: normal;
+}
+p{
+  font-size: var(--content-font-size);
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+small{
+  font-size: var(--content-small-font-size);
+  letter-spacing: 1.2px;
+  font-weight: lighter;
+}
 /*btn*/
 .button_primary{
   text-align: center;
