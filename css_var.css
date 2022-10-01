@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+:root{
+    /* font_size */
+    --title-font-size : 32px;
+    --sub-title-font-size : 24px;
+    --content-font-size: 20px;
+    --content-small-font-size: 16px;
+    
+    /*letter_space*/
+    --ch-letter_space: 10%;
+
+    /*line-height*/
+    --ch-line-height: 120%;
+
+    /*bg-color*/
+    --bg-color: #D3CBC0;
+    --cards-bg-color: #4E6762;
+    --breadcrumb-bg-color: #4E6762;
+    --product-bg-color: #D3CBC050;
+    --box-bg-color:#BA6565;
+    --upload-bg-color: #aaa;
+
+    /*font-color*/
+    --nav-font-color: #BC2222;
+    --h1--color: #ffffff;
+    --h1--text-shadow: 0 2px 4px #BC2222;
+    --p-color: #f5f5f5;
+    --p-text-shadow: 0 0px 4px #BA6565;
+    --h2-color:  #BA6565;
+    --card-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+
+      /*not-important-color*/
+    --breadcrumb-color: #f5f5f5;
+    --hover-color:#bbac84;
+
+    /*tag-color*/
+    --tag-color:#E4DFD8;
+}
+/*思源體*/
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+}
+/*btn*/
+.button_primary{
+  text-align: center;
+  width: 200px;
+  line-height: 20px;
+  background-color: var(--box-bg-color);
+  border-radius: 20px;
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 10px;
+}
+.button_primary:hover{
+  background-color: var(--h2-color);
+  box-shadow: 0 0 10px #BC2222;
+}
+.button_primary a{
+  color: #ffffff;
+}
+.button_secondary{
+  width: 100px;
+  line-height: 20px;
+  text-align: center;
+  background-color: var(--p-color);
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 20px;
+}
+.button_secondary a{
+  color: #4E6762;
+}
+.button_secondary:hover{
+  box-shadow: var(--card-box-shadow);
+  background-color: #fff;
+}
+.button_third{
+  width: 150px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #FFDD81;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.button_third a{
+  color: #ffffff;
+}
+.button_third:hover{
+  box-shadow: var(--card-box-shadow);
+  background-color: #f7b80b;
+}
+.gotop{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  /* background-color: #BA6565; */
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+  z-index: 100;
+}
+.gotop .pic{
+  width: 40px;
+  height: 40px;
+}
+.gotop .pic img{
+  width: 100%;
+}

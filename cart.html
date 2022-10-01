@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css_var.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>購物車</title>
+</head>
+<body>
+    <!--header-->
+    <header class="fixed_header">
+        <nav class="nav">
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <div class="wrap">
+                        <a href="index.html" class="nav_logo">
+                            <img src="img/mainPage/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="wrap">
+                        <li class="nav_item"><a href="new_customer_page.html">新客體驗</a></li>
+                        <li class="nav_item"><a href="product_list.html">商品列表</a></li>
+                        <li class="nav_item"><a href="brand_vision.html">品牌理念</a></li>
+                        <li class="nav_item"><a href="farmer.html">認識小農</a></li>
+                        <li class="nav_item"><a href="cart.html"><img src="img/mainPage/cart.png" alt="cart"></a></li>
+                        <li class="nav_item"><a href="log_in.html"><img src="img/mainPage/member.png" alt="member"></a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+     <!--banner-->
+    <div class="banner">
+        <h1>購物車</h1>
+        <p></p>
+    </div>
+    <!--breadcrumb-->
+    <div class="breadcrumb">
+        <span><a href="">首頁</a></span>
+        <span><a href="">我的購物車</a></span>
+    </div>
+    <!-- cart_content -->
+    <div class="cart_content">
+        <h2>商品清單</h2>
+        <table>
+            <tr>
+                <th>勾選商品</th>
+                <th>商品圖</th>
+                <th colspan="2">商品名稱</th>
+                <th>單價</th>
+                <th>數量</th>
+                <th>小計</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="checkbox" checked></td>
+                <td><div class="pic"><img src="img/product_list/new_product.jpg" alt=""></div></td>
+                <td colspan="2">梅蘭克爾12號</td>
+                <td>$2000</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>$2000 </td>
+                <td><p><a href="product_introduction.html">找類似</a></p>
+                    <p>清除</p>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="checkbox2" checked></td>
+                <td><div class="pic"><img src="img/product_list/top1.png" alt=""></div></td>
+                <td colspan="2">綠茶1號</td>
+                <td>$2000</td>
+                <td><input type="number" name="" id="num" value="1"></td>
+                <td>$2000 </td>
+                <td><p><a href="product_introduction.html">找類似</a></p>
+                    <p>清除</p>
+                </td>
+            </tr>
+
+        </table>
+        <div class="sum_container">
+            <div class="box sum_box">
+                <div class="title sum_title">商品總計: </div>
+                <div class="price sum_price">$4000</div>
+            </div>
+            <div class="box bonus_box">
+            <div class="title bouns_title">紅利點數: </div>    
+            <div class="price bouns_point">100點</div>    
+            </div>
+            
+            <div class="btn_group">
+                <div class="pay button_primary"><a href="">結帳</a></div>
+                <div class="continue_shop button_third"><a href="">繼續購物</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+    <!-- footer -->
+    <footer>
+        <div class="footer_wrap">
+            <div class="brand_core">
+                <div class="title"><a href="brand_vision.html">品牌理念</a></div>
+                <div class=""><a href="brand_vision.html">我們的堅持</a></div>
+                <div class=""><a href="brand_vision.html">關於我們</a></div>
+            </div>
+            <div class="new_customer">
+                <div class="title"><a href="new_customer_page.html">新客體驗</a></div>
+                <div class=""><a href="new_customer_page.html">膚況檢測</a></div>
+                <div class=""><a href="new_customer_page.html">心理測驗</a></div>
+            </div>
+            <div class="product_list">
+                <div class="title"><a href="product_list.html">商品列表</a></div>
+                <div class=""><a href="product_list.html">熱賣商品</a></div>
+                <div class=""><a href="product_list.html">優惠組合</a></div>
+            </div>
+            <div class="store_info">
+                <div class="title"><a href="new_customer_page.html">門市據點</a></div>
+                <div class=""><a href="new_customer_page.html">忠孝店</a></div>
+                <div class=""><a href="new_customer_page.html">永和店</a></div>
+                <div class=""><a href="new_customer_page.html">桃園店</a></div>
+            </div>
+            <div class="account">
+                <div class="title"><a href="log_in.html">帳戶管理</a></div>
+                <div class=""><a href="log_in.html">註冊</a></div>
+                <div class=""><a href="log_in.html">登入</a></div>
+                <div class=""><a href="log_in.html">忘記密碼</a></div>
+            </div>
+            <div class="follow_us">
+                <div class=""><a href="#">關注我們</a></div>
+                <img src="img/mainPage/facebook _icon.png">
+                <img src="img/mainPage/twitter_ icon.png">
+                <img src="img/mainPage/instagram_icon.png">
+                <img src="img/mainPage/line_icon.png">
+            </div>
+        </div>
+        <div class="footer2_wrap">
+            <span class="copyright">Copyright © 2022 LilyLiu. 保留所有權利。</span>
+            <span class="privacy">隱私政策</span>
+            <span class="rule">使用條款</span>
+            <div class=""><a href="">本網站採用 reCAPTCHA 保護機制，並遵守 Google 隱私權政策 及 服務條款</a></div>
+        </div>
+    </footer>
+</html>
