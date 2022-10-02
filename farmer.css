@@ -223,9 +223,7 @@
     outline: 1px solid transparent;
     box-shadow: var(--card-box-shadow);
     border-radius:20px;
-    /* background-image:linear-gradient(to right top,#bbac84,#f5f5f5); */
     overflow: hidden;
-   
 } 
 .farmer_detailed .card .pic img{
     width: 100%;
@@ -242,14 +240,6 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 10px;
-}
-.farmer_detailed .card .card_txt .pic{
-    width: 80px;
-    height: 80px;
-}
-.farmer_detailed .card .card_txt .pic img{
-    width: 100%;
-    
 }
 
 /* footer */
