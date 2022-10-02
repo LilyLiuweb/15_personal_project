@@ -141,7 +141,7 @@ header{
     width: 100%;
     height: 100%;
     z-index: 1;
-    /* background: linear-gradient(180deg,#FFEDD4,#666); */
+    background: linear-gradient(180deg,#FFEDD4,#666);
     mix-blend-mode: multiply;
     opacity: 0;
     transition: .5s;
@@ -252,7 +252,6 @@ header{
     position: relative;
     margin-top: -140px;
     padding: 10px;
-    /* text-align: c; */
     color: #111;
     visibility: hidden;
     opacity: 0;
@@ -270,7 +269,6 @@ header{
 /* category_group */
 .category_group{
     width: 100%;
-    /* background-image: linear-gradient(to bottom,#D3CBC0,#ffffff); */
 }
 .category_group h2{
     text-align: center;
