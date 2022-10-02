@@ -215,17 +215,15 @@
 }
 .farmer_detailed .card{
     width: calc(25% - 20px);
-    /* display: flex;
-    align-items: center; */
     padding: 20px;
     box-sizing: border-box;
     margin: 10px;
     outline: 1px solid transparent;
     box-shadow: var(--card-box-shadow);
-    border-radius:20px;
+    border-radius: 20px;
     overflow: hidden;
 } 
-.farmer_detailed .card .pic img{
+.farmer_detailed .card > .pic img{
     width: 100%;
     transition: .5s;
 }
@@ -237,11 +235,16 @@
 }
 .farmer_detailed .card .card_txt .wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     margin: 10px;
 }
-
+.farmer_detailed .card .card_txt .wrap .pic{
+    width: 50px;
+}
+.farmer_detailed .card .card_txt .wrap .pic img{
+    width: 100%;
+}
 /* footer */
 footer{
     background-image: linear-gradient(to top,#D3CBC0,#ffffff);

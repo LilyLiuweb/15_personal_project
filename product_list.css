@@ -345,7 +345,7 @@ header{
 .category_product_container .product:hover{
     width: 250px;
     height: 380px;
-    background-color: #00000080;
+    background-color: #BA6565;
 }
 .category_product_container .product .pic{
     width: 100%;
@@ -450,21 +450,23 @@ header{
 .grid div:nth-child(2){
     grid-column: 3/4;
     grid-row: 1/2;
-    background-image: url(img/product_list/oil_control.jpg);
-    object-fit: contain;
+    background: no-repeat center/100%  url(img/product_list/oil_control.jpg) ;
+    font-size: 24px;
 }
 .grid div:nth-child(3){
     grid-column: 3/4;
     grid-row: 2/3;
-    background-image: url(img/product_list/enlighten.jpg);
-    object-fit: cover;
+    background: no-repeat center/100% url(img/product_list/enlighten.jpg);
+    font-size: 24px;
 }
 .grid div:nth-child(4){
     grid-column: 3/4;
     grid-row: 3/4;
-    background-image: url(img/product_list/lotion.jpg);
-    object-fit: cover;
+    background: no-repeat center/100% url(img/product_list/lotion.jpg);
+    font-size: 24px;
+    color: #f5f5f5;
 }
+
 .wrap .txt{
     width: 550px;
     margin: 0 auto;
