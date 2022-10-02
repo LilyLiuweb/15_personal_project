@@ -1,6 +1,6 @@
 /*header*/
 body{
-    background: linear-gradient(180deg,var(--bg-color),#f5f5f5);
+    background: var(--bg-color);
 }
 .fixed_header{
     width: 100%;
