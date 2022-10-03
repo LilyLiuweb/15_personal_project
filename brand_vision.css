@@ -302,7 +302,7 @@
 .line{
     width: 800px;
     height: 3px;
-    background-color: #ccc;
+    background-color: #666;
     transform: rotate(90deg);
     display: flex;
     justify-content: space-between;
@@ -351,7 +351,7 @@
 }
 /* footer */
 footer{
-    background-image: linear-gradient(to top,#D3CBC0,#ffffff);
+    background-image: linear-gradient(to bottom,#D3CBC0,#ffffff);
 }
 .footer_wrap{
     /* background-color: var(--bg-color); */

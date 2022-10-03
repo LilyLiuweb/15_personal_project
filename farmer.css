@@ -185,7 +185,7 @@
 }
 .category_group .tag{
     text-align: center;
-    background-color: var(--bg-color);
+    background-color: #b3a38d;
     font-size: var(--sub-title-font-size);
     color: #666; 
     margin: 20px;

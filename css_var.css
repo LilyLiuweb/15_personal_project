@@ -43,6 +43,7 @@ html{
 body{
     font-family: 'Noto Sans TC', sans-serif;
     letter-spacing: 2px;
+    background-color: var(--bg-color);
 }
 h1{
   font-size: var(--title-font-size);

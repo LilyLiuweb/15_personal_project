@@ -532,7 +532,7 @@ body{
 }
 /* footer */
 footer{
-    background-image: linear-gradient(to top,#D3CBC0,#ffffff);
+    background-image: linear-gradient(to bottom,#D3CBC0,#ffffff);
 }
 .footer_wrap{
     /* background-color: var(--bg-color); */
