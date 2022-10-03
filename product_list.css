@@ -490,6 +490,9 @@ header{
     margin-right: 10px;
 }
 /* footer */
+footer{
+    background-color: #E4DFD8;
+}
 .footer_wrap{
     display: flex;
     justify-content: space-between;

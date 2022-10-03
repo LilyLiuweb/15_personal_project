@@ -431,13 +431,16 @@ header{
     text-align: center;
 }
 /* footer */
-
+footer{
+    background-color: #E4DFD8;
+}
 .footer_wrap{
     display: flex;
     justify-content: space-between;
     margin: 30px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;
+    background-color: ;
 }
 .footer_wrap a{
     color: #00000080;

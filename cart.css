@@ -194,7 +194,7 @@ header{
 }
 /* footer */
 footer{
-    background-image: linear-gradient(to bottom,#D3CBC0,#ffffff);
+    background-color: #E4DFD8;
 }
 .footer_wrap{
     display: flex;
