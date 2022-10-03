@@ -79,6 +79,7 @@ small{
   background-color: var(--h2-color);
   box-shadow: 0 0 10px #BC2222;
 }
+.button_primary:hover a,
 .button_primary a{
   color: #ffffff;
 }
@@ -91,11 +92,10 @@ small{
   border-radius: 20px;
 }
 .button_secondary a{
-  color: #4E6762;
+  color: #ccc;
 }
-.button_secondary:hover{
-  box-shadow: var(--card-box-shadow);
-  background-color: #fff;
+.button_secondary:hover a{
+  color: #4E6762;
 }
 .button_third{
   width: 150px;
