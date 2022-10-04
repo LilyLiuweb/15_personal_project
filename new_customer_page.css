@@ -539,7 +539,7 @@ footer{
 .footer_wrap{
     /* background-color: var(--bg-color); */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 30px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;

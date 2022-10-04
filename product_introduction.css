@@ -313,7 +313,7 @@ footer{
 }
 .footer_wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;

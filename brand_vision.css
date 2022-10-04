@@ -150,7 +150,7 @@
 }
 .brand_origin .pic h2{
     font-size: var(--content-font-size);
-    color: #00000080;
+    color: #BA6565;
     text-align: center;
     margin: 40px;
 }
@@ -239,7 +239,7 @@
     text-align: center;
     font-size: var(--title-font-size);
     margin: 20px 0;
-    color: #666;
+    color: #BA6565;
 }
 
 .video_container{
@@ -271,7 +271,7 @@
     text-align: center;
     font-size: var(--title-font-size);
     margin: 0;
-    color: #666;
+    color: #BA6565;
 }
 .media_report .video_container{
     max-width: 1200px;
@@ -293,8 +293,8 @@
     position: relative;
 }
 .mile_stone h2{
-    font-size: var(--content-font-size);
-    color: #666;
+    font-size: var(--title-font-size);
+    color: #BA6565;
     text-align: center;
     margin: 40px;
 }
@@ -311,7 +311,7 @@
 .line{
     width: 800px;
     height: 3px;
-    background-color: #666;
+    background-color: #BA6565;
     transform: rotate(90deg);
     display: flex;
     justify-content: space-between;
@@ -321,7 +321,7 @@
 .line .circle{
     width: 50px;
     height: 50px;
-    background-color: #666;
+    background-color: #BA6565;
     border-radius: 50%;
 }
 .img_container{
@@ -365,7 +365,7 @@ footer{
 .footer_wrap{
     /* background-color: var(--bg-color); */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 30px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;
