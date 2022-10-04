@@ -1,7 +1,7 @@
 /*header*/
 header{
     width: 100%;
-    background-image: linear-gradient(to bottom,#D3CBC080,#FFFFFF) ;
+    background-image: linear-gradient(to bottom,#D3CBC080,#FFFFFF);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -65,12 +65,12 @@ header{
 .wrap .nav_item:nth-child(3):hover a,
 .wrap .nav_item:nth-child(4):hover a
 {
- color:#BA6565 ;
- font-weight: bold;
+    color:#BA6565 ;
+    font-weight: bold;
 }
 .wrap li:nth-child(5),
-.wrap li:nth-child(6){
-
+.wrap li:nth-child(6)
+{
     margin: auto -10px;
 }
 .wrap li img{
@@ -88,7 +88,6 @@ header{
     font-size: var(--title-font-size) ;
     color: var(--h1--color);
     text-shadow: var(--h1--text-shadow);
-
 }
 .banner p{
     text-align: center;

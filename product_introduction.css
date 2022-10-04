@@ -59,12 +59,12 @@ header{
 .wrap .nav_item:nth-child(3):hover a,
 .wrap .nav_item:nth-child(4):hover a
 {
- color:#BA6565 ;
+ color:var(--nav-font-color);
  font-weight: bold;
- /* text-shadow: 0 0 4px #00000080; */
+
 }
 .nav_item a{
-    color:var(--nav-font-color) ;
+    color: #BA6565;
     text-decoration: none;
     
 }
@@ -117,7 +117,7 @@ header{
     content:" / ";
     color: var( --breadcrumb-color);
 }
-/* product_introduction */
+
 main{
     width: 100%;
     height: 500px;
@@ -155,6 +155,9 @@ main h2{
 }
 .grid_box .pic{
     width: 300px;
+}
+.grid_box .pic img{
+     filter: saturate(1.5);
 }
 .pic_product_detail1{
     width: 190px;

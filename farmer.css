@@ -63,9 +63,14 @@
 .wrap .nav_item:nth-child(3):hover a,
 .wrap .nav_item:nth-child(4):hover a
 {
- color:#BA6565 ;
+ color:var(--nav-font-color);
  font-weight: bold;
- /* text-shadow: 0 0 4px #00000080; */
+
+}
+.nav_item a{
+    color: #BA6565;
+    text-decoration: none;
+    
 }
 .wrap li:nth-child(5),
 .wrap li:nth-child(6){

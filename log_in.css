@@ -5,10 +5,9 @@
 	background-image:url(img/log_in/bg4.jpg);
 	height:100vh;
     position: relative;
-/*	原本受容器所限只能寬移至中間，所以要將高度設為100VH，align-items才會有作用*/
 }
 form{
-	/* background: yellow; */
+
 	width:360px;
 	padding:40px 30px;
 	border-radius: 10px;
@@ -42,7 +41,8 @@ form{
 	padding: 5px;
 	z-index: 1;
     margin: 10px auto;
-    box-shadow: 0 10px 25px #ccc;
+    box-shadow: 0 0 5px #ccc;
+	outline: none;
 }
 
 .form-label{
