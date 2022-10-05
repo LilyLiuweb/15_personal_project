@@ -5,7 +5,7 @@ body a{
 /*header*/
 header{
     width: 100%;
-    background:var(--bg-color);
+    /* background:var(--bg-color); */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -19,6 +19,9 @@ header{
     height: 80px;
     z-index: 100;
 
+}
+.nav .wrap h1{
+    display: none;
 }
 .nav_logo{
     width: 200px;
@@ -80,8 +83,18 @@ header{
 /*banner*/
 .banner{
     width: 100%;
-    height: 50%;
+    height: 100vh;
+    line-height: 150vh;
+    text-align: left;
+    font-size: 80px;
+    padding: 20px;
+    color: #f5f5f5f5;
+    text-shadow: var(--p-text-shadow);
     position: relative;
+    background-image: url(img/mainPage/female.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: scroll;
 }
 .carousel-item{
     width: 1200px;
@@ -92,17 +105,19 @@ header{
     height: 100%;
     object-fit:cover;
 }
-.carousel-item .carousel-caption h2,
+.carousel-item .carousel-caption h2
 {
     font-size: var(--h2-font-size);
     color:var(--h2-color);
 }
-.carousel-item .carousel-caption p
+.carousel-item .carousel-caption p{
+    font-size: var(--h3-font-size);
+}
 /*about*/
 .about{
     width: 100%;
-    box-sizing: border-box;
-    min-height: 50vh;
+    height: 70vh;
+    background-color: #ccc;
 }
 .about .title h2{
     margin: 2rem;
@@ -133,7 +148,7 @@ header{
 .box_group .box:hover{
     z-index: 1;
     transform: scale(1.25);
-    box-shadow: 0 20px 40px rgba(0,0,0,.);
+    box-shadow: 0 20px 40px rgba(0,0,0,.5);
     border-radius: 20px;
 }
 .box_group .box .imgBx{
@@ -183,13 +198,7 @@ header{
 .box_group .box .content a{
     color: #111;
 }
-/* .box_group .box .content h2{ 
-    transition: .3s;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    font-size: var(--h2-font-size);
-    transform: translateY(200px);
-} */
+
 .box_group .box .content h3{
     background-color: var(--bg-color);
     border-radius: 20px;
@@ -219,9 +228,16 @@ header{
     width: 100%;
     box-sizing: border-box;
     min-height: 80vh;
+    background-image: url(img/mainPage/carosell2.jpg);
+    /* line-height: 80vh; */
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .best_seller_product > h2{
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: 50px;
     text-align: center;
     font-size: var(--h2-font-size);
@@ -305,7 +321,14 @@ header{
 }
 /* category_group */
 .category_group{
-    width: 100%;
+    width: 80%;
+    height: 70vh;
+    background-image: url(img/mainPage/carosell3.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .category_group h2{
     text-align: center;
@@ -371,7 +394,8 @@ header{
     opacity: 1;
 }
 .select{
-    padding: 30px;
+    text-align: center;
+    padding: 3rem;
 }
 /*product_category_bottomspace*/
 .space{
@@ -405,7 +429,8 @@ header{
     margin: 10px;
 }
 .test{
-    padding: 10px;
+    text-align: center;
+    padding: 3rem;
 }
 /* store_location */
 .store_location_list{
@@ -418,6 +443,7 @@ header{
     margin: 0 auto;
 }
 .store_location_list h2{
+    width: 100%;
     line-height: 100px;
     text-align: center;
     font-size: var(--h2-font-size);

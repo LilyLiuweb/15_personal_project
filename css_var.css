@@ -49,6 +49,7 @@ body{
 }
 /*btn*/
 .button_primary{
+  border: none;
   text-align: center;
   width: 150px;
   line-height: 30px;
@@ -70,6 +71,7 @@ body{
   color: #ffffff;
 }
 .button_secondary{
+  border: none;
   text-align: center;
   width: 100px;
   line-height: 20px;
@@ -90,6 +92,7 @@ body{
 
 }
 .button_third{
+  border: none;
   width: 150px;
   line-height: 40px;
   text-align: center;
